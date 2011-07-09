@@ -1,6 +1,7 @@
 package smartmatch::engine::rjbs;
 use strict;
 use warnings;
+# ABSTRACT: implementation of rjbs's smartmatch proposal
 
 use overload ();
 use Scalar::Util qw(blessed reftype);
